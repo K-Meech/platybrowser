@@ -47,5 +47,54 @@
       185.2571800183773,
       171.95351152610863
     ]
+  },
+  "test3": {
+    "layers": {
+      "sbem-6dpf-1-whole-raw": {
+        "color": "(r\u003d255,g\u003d255,b\u003d255,a\u003d255)",
+        "contrastLimits": [
+          0.0,
+          255.0
+        ],
+        "showSelectedSegmentsIn3d": false,
+        "showImageIn3d": false
+      },
+      "sbem-6dpf-1-whole-segmented-cells": {
+        "color": "BlueWhiteRed",
+        "colorByColumn": "n_pixels",
+        "contrastLimits": [
+          0.0,
+          1000.0
+        ],
+        "valueLimits": [
+          9176.0,
+          8.8447029257E10
+        ],
+        "tables": [
+          "cells_to_nuclei"
+        ],
+        "showSelectedSegmentsIn3d": false,
+        "showImageIn3d": false
+      }
+    },
+    "normView": [
+      "n0.002646818615441732",
+      "n7.04473625540855E-4",
+      "n-4.932777430736309E-4",
+      "n-0.24147322514032155",
+      "n0.0",
+      "n0.001596280308373946",
+      "n0.002279724540605939",
+      "n-0.5707418490304795",
+      "n8.600035005129292E-4",
+      "n-0.0021681468797012534",
+      "n0.0015181527891126785",
+      "n0.06554308177659235"
+    ],
+    "position": [
+      75.24201106633356,
+      157.93960978211362,
+      139.7651138757042
+    ]
   }
 }
