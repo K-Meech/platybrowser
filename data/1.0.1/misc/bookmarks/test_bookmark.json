@@ -1,0 +1,51 @@
+{
+  "test": {
+    "layers": {
+      "sbem-6dpf-1-whole-raw": {
+        "color": "(r\u003d255,g\u003d255,b\u003d255,a\u003d255)",
+        "contrastLimits": [
+          0.0,
+          255.0
+        ],
+        "showSelectedSegmentsIn3d": false,
+        "showImageIn3d": false
+      },
+      "sbem-6dpf-1-whole-segmented-cells": {
+        "color": "BlueWhiteRed",
+        "colorByColumn": "n_pixels",
+        "contrastLimits": [
+          0.0,
+          1000.0
+        ],
+        "valueLimits": [
+          9176.0,
+          8.8447029257E10
+        ],
+        "tables": [
+          "cells_to_nuclei"
+        ],
+        "showSelectedSegmentsIn3d": false,
+        "showImageIn3d": false
+      }
+    },
+    "normView": [
+      "n0.0027813344419953794",
+      "n2.0193701349538126E-5",
+      "n-9.500389539085274E-5",
+      "n-0.5145695416608163",
+      "n-1.206946777134079E-21",
+      "n0.0027222139104385594",
+      "n5.786244289331257E-4",
+      "n-0.3939841054933557",
+      "n9.712633892837943E-5",
+      "n-5.782719465649285E-4",
+      "n0.0027205556112760787",
+      "n-0.3318449456454612"
+    ],
+    "position": [
+      188.94418721258293,
+      115.03862377565657,
+      139.68363513891074
+    ]
+  }
+}
